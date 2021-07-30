@@ -16,7 +16,7 @@ import java.lang.reflect.*;
 public class RegExpression {
 	
 	// CHANGE HERE!
-	public static String folderlocation = "C:\\Users\\91990\\eclipse-workspace\\Assignment4\\src\\W3C Web Pages\\Text";
+	public static String folderlocation = "D:\\Java Workspace\\SearchEngine\\convertedWebPages";
 	
 	 public static void findEmailAdresses(String textfile) {
 

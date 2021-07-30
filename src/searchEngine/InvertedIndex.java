@@ -1,4 +1,4 @@
-package project;
+package searchEngine;
 
 /*
  * Inverted Index - All the words in the text files generated 
@@ -18,7 +18,7 @@ import org.jsoup.nodes.Document;
 public class InvertedIndex {
 	
 	
-	static File allFiles = new File("convertedWebPages/");
+	static File allFiles = new File("D:\\Java Workspace\\SearchEngine\\convertedWebPages");
 	HashMap<String, String> textFiles;
 	Scanner sc = new Scanner(System.in);
 	
@@ -55,7 +55,7 @@ public class InvertedIndex {
 		if(count == 0)
 			System.out.println("'"+userInput+"' "+ "not found in any of the files.");
 		
-		moreSearch();
+		//moreSearch();
 		
 	}
 	
@@ -68,11 +68,4 @@ public class InvertedIndex {
 			System.out.println("\nThank You!");
 	}		
 
-	
-	public static void main(String[] args) throws IOException {
-		
-		InvertedIndex ii = new InvertedIndex();
-		ii.InvertedIndexCreate();
-		
-	}
 }

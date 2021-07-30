@@ -41,7 +41,7 @@ public class tstSearch {
 	
 	public static void tstSearching(String myWord, int choice)  throws IOException {
 		  
-		File myFolder = new File("E:\\Advance computing concepts\\Project\\SearchEngine-main\\SearchEngine-main\\convertedWebpages");
+		File myFolder = new File("D:\\Java Workspace\\SearchEngine\\convertedWebPages");
 		File[] files = myFolder.listFiles();
 		
 		for (File file : files) {
