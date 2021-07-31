@@ -65,6 +65,7 @@ public class SearchEngineMain {
 	    	  
 	      case 3:
 	    	  mergeTextFiles.mergeFiles();
+			    linesToWords.splitWords();
 	  		  editDistance.run();
 		      break;
 		      
