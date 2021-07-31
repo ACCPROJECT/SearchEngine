@@ -36,7 +36,7 @@ public class SearchEngineMain {
 	    {
 	    	Scanner userInput = new Scanner(System.in);  
 		    System.out.println("Please enter the feature to be searched: "
-		    		+ "\n 1. Hashmap"
+		    		+ "\n 1. Regular Expression"
 		    		+ "\n 2. TST"
 		    		+ "\n 3. Edit Distance"
 		    		+ "\n 4. Inverted Index"
