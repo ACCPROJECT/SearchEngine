@@ -4,7 +4,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-
+/**
+ * Searching a word in all the converted text files using Edit Distance
+ * @author Rahul Banerjee
+ */
 public class dictionary {
     private int M = 1319; //prime number
     final private Bucket[] array;
