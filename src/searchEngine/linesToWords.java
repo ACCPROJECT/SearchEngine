@@ -6,6 +6,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * Searching a word in all the converted text files using Edit Distance
+ * @author Rahul Banerjee
+ */
+
 public class linesToWords {
 
 	public static  void splitWords() throws FileNotFoundException, IOException {
