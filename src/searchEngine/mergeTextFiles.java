@@ -7,6 +7,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/**
+ * Searching a word in all the converted text files using Edit Distance
+ * @author Rahul Banerjee
+ */
+
 public class mergeTextFiles {
 
 	public static void mergeFiles() throws IOException {
