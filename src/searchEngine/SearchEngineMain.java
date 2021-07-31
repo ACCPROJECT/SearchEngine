@@ -57,8 +57,8 @@ public class SearchEngineMain {
 	    	  String word = userInput.next();
 	    	  
 	    	  System.out.println("\n Do you want a partial or exact word \n"
-	    	  		+ "1. Partial"
-	    	  		+ "2. Exact");
+	    	  		+ "1. Exact word Search "
+	    	  		+ "2. Prefix search");
 	    	  int cho = new Scanner(System.in).nextInt();
 	    	  tst.tstSearching(word, cho);
 	    	  break;
