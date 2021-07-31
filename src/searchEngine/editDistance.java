@@ -6,6 +6,11 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Searching a word in all the converted text files using Edit Distance
+ * @author Rahul Banerjee
+ */
+
 public class editDistance {
 
     private static dictionary dict;
